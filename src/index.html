@@ -9,10 +9,10 @@
   <title>Frontend Mentor | Interactive card details form</title>
 
 </head>
-<body class="bg-gray-300">
+<body>
   <header class="relative h-36 flex flex-col">
-    <img src="../images/bg-main-mobile.png" class="z-0 md:w-2/4" alt="Fundo do desktop"> 
-    <div class="h-36 bg-no-repeat absolute top-20 z-20 left-14 w-64 text-white xl:w-96 xl:h-96 p-2"  style="background-image: url('../images/bg-card-front.png'); background-size: 100%;">
+    <img src="../images/bg-main-mobile.png" class="z-0 md:w-4/12 md:min-h-screen" alt="Fundo do desktop"> 
+    <div class="h-36 bg-no-repeat absolute top-20 md:mt-32 md:top-56 md:left-96 z-20 left-14 w-64 text-white xl:w-96 xl:h-96 p-2"  style="background-image: url('../images/bg-card-front.png'); background-size: 100%;">
       <div class="w-32 h-10" style="background-image: url('../images/card-logo.svg'); background-size: 30%; background-repeat: no-repeat;">
       </div>
       <p>0000 0000 0000 0000</p>
@@ -22,11 +22,11 @@
       </div>
      
     </div>
-    <div class="h-36 absolute left-32 bg-no-repeat z-10 flex justify-end items-center w-64 xl:w-96 xl:h-96" style="background-image: url('../images/bg-card-back.png'); background-size: 100%;">
+    <div class="h-36 absolute left-28 bg-no-repeat z-10  md:mt-20 flex justify-end items-center w-64 xl:w-96 xl:h-96" style="background-image: url('../images/bg-card-back.png'); background-size: 100%;">
       <p class="mr-7 mb-2">000</p>
     </div>
   </header>
-  <main class="mt-32 h-96">
+  <main class="mt-32 h-96 md:ml-96">
     <form class="flex flex-col items-center">
       <label for="name">Cardholder Name</label> <input type="text" class="outline h-10 outline-gray-400 rounded-sm mb-2" placedholder="e.g. Jane Appleseed" id="name">
       <label for="number">Card Number</label> <input type="number" class="outline  h-10 outline-gray-400 rounded-sm mb-2" placedholder="e.g. 1234 5678 9123 0000" id="number">
