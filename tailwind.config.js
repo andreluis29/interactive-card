@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.html,js"],
+  content: ["./src/**/*.html"],
   theme: {
     extend: {
       theme: {
@@ -19,8 +19,12 @@ module.exports = {
     
           '2xl': '1536px',
           // => @media (min-width: 1536px) { ... }
-        }
-      }
+        },
+       
+      }, 
+      backgroundImage: {
+          'desktop': "url('./images/bg-main-desktop.png')",
+      },
     },
   },
   plugins: [],
