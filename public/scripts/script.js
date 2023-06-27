@@ -39,9 +39,9 @@ $(function () {
     $('section').css('display', 'flex');
   });
 
-  $('button[type="reset"]').on('click', function() {
+  $('button[type="button"]').on('click', function() {
     $('main').css('display', 'block');
-    $('section').css('display', 'hidden');
+    $('section').css('display', 'none');
   })
 
   $('form').validate({
