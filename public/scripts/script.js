@@ -30,7 +30,7 @@ $(function () {
 
   $(cvc).on("keyup", (e) => {
     const value = e.target.value;
-    $("#cardNameBackground").text(value);
+    $("#cardCvc").text(value);
   });
 
   $('form').on('submit', function(e) {
